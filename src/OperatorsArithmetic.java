@@ -2,11 +2,22 @@
 public class OperatorsArithmetic {
 
 	public static void main(String[] args) {
-		
-		int a = 9;
+
+		int a = 10;
 		int b = 5;
+
+		//a = a + 1;
+		//a++;
+		//a +=1;
 		
-		System.out.println(a + b);
+		int result = a + b;
+
+		System.out.println(a + " + " + b + " = " + (a + b));
+		System.out.println(a + " + " + b + " = " + result);
+		
+		result = a - b;
+		System.out.println(a + " + " + b + " = " + result);
+		
 		System.out.println(a - b);
 		System.out.println(a * b);
 		System.out.println(a / b);
